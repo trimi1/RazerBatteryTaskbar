@@ -59,6 +59,14 @@ function QuitClick() {
 // mouse stuff
 const RazerVendorId = 0x1532;
 const RazerProducts = {
+    0x00BE: {
+        name: 'Razer DeathAdder V4 Pro Wired',
+        transactionId: 0x1f
+    },
+    0x00BF: {
+        name: 'Razer DeathAdder V4 Pro Wireless',
+        transactionId: 0x1f
+    },
     0x00A4: {
         name: 'Razer Mouse Dock Pro',
         transactionId: 0x1f
